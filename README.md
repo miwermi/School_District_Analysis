@@ -5,10 +5,11 @@
 <!--![Maria's District](summary_assets/Maria_PyCitySchools.png)-->
 <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/Maria_PyCitySchools.png" width="600" height="348" alt ="graphic: Maria's School District">
 Pictured: Maria's School District
-<br /><br />
-## Project Overview
+
+## Project Overview:
 
 For this project, I am helping Maria, the chief data scientist for a city school district, analyze standardized test data. The analysis we prepare will provide insights for the School Board, showcasing trends that will help to identify patterns and inform discussions on strategic district decisions on school budgets and priorities. 
+
 
 ## Results: 
 - How is the district summary affected?

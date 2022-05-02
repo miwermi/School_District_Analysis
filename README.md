@@ -63,15 +63,11 @@ Pictured below are Math and Reading scores for all schools by grade (numbers lef
 And in our FULL District Report (listed alphabetically) we can easily see how all schools compare to each other:
 ![FINAL School Summary](summary_assets/SchoolSummary.png)
 
-
-- How is the school summary affected? src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/MathScoresByGrade.png" width="300" height="350" alt ="graphic: Math Scores by Grade"> &nbsp; <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/ReadingScoresByGrade.png" width="300" height="350" alt ="graphic: Reading Scores by Grade">
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-- How does replacing the ninth-grade scores affect the following:
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+### Top & Bottom 5
+By replacing the 9th grade Thomas HS data, we also saw no difference at all in the ranking placement of any Top 5 or Bottom performing school. Below are the final versions of those two reports:
+![FINAL Top 5](summary_assets/TopSchools.png)
+![FINAL Bottom 5](summary_assets/BottomSchools.png)
 
 ## Summary: 
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In summary, after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs, there were only slight variations in our reports.

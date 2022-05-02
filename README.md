@@ -41,7 +41,7 @@ FINAL (THS 9th M&R ignored):
 <!-- ![FINAL District Summary](summary_assets/DistrictSummary.png) -->
 
 ### School Summary -
-In our School Summary, which listed each school individually, there was a significant drop in the passing percentages for our one anomalous high school (Thomas HS) only when we did not account for the fewer number of students. Once we were able to insert custom totals for those percentages correctly, again we noticed only a slight difference (decline) in the total passing rates from our original:
+In our School Summary, which listed each school individually, there was a significant drop in the passing percentages for our one anomalous high school (Thomas HS) only when we did not account for the fewer number of students. Once we were able to insert custom totals for those percentages correctly, again we noticed only a slight difference in the total passing rates from our original. Only the passing-reading-percentage increased, all others declined:
 
 ORIGNAL:
 
@@ -56,10 +56,11 @@ FINAL (THS 9th M&R ignored):
 |	Thomas HS    | Charter |	     1635 |	$1,043,130.00 |	       $638.00 |      83.350937 |    	 83.896082 |      93.185690 |	        97.018739 |       	90.630324 |
 
 
-Pictured below is the Math and Reading scores for all schools by grade, which clearly illustrates the numbers left off (signified by "nan"):
+### Math and Reading Scores (Adjusted) -
+Pictured below are Math and Reading scores for all schools by grade (numbers left off are signified by "nan"):
 <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/MathScoresByGrade.png" width="300" height="350" alt ="graphic: Math Scores by Grade"> &nbsp; <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/ReadingScoresByGrade.png" width="300" height="350" alt ="graphic: Reading Scores by Grade">
 
-And in our FULL District Report (listed alphabetically) we see how all schools compare to each other:
+And in our FULL District Report (listed alphabetically) we can easily see how all schools compare to each other:
 ![FINAL School Summary](summary_assets/SchoolSummary.png)
 
 

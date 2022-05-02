@@ -24,7 +24,7 @@ We were happy with the results when we were made aware that one school's data wa
 ## Results: 
 
 ### District Summary - 
-In our original District Summary, the average Math and Reading scores and percentages were actually only slightly higher in our final report than our final where we left out all 9th grade test results for the school in question (Thomas HS):
+In our original District Summary, the average Math and Reading scores and percentages were actually only slightly higher in our final report than they were in our final where we left out all 9th grade test results for the school in question (Thomas HS):
 
 ORIGINAL:
 
@@ -32,13 +32,30 @@ ORIGINAL:
 | ------------- |	-------------- | --------------- |	------------------ | --------------------- | -------------- |	----------------- |	----------------- |
 |	           15 |	        39,170 |	$24,649,428.00 |	              79.0 |                 	81.9 |	           75 |               86 	|                 65|
 
-FINAL:
+FINAL (THS 9th M&R ignored):
 
 | Total Schools |	Total Students |    Total Budget |	Average Math Score | Average Reading Score | % Passing Math |	% Passing Reading |	% Overall Passing |
 | ------------- |	-------------- | --------------- |	------------------ | --------------------- | -------------- |	----------------- |	----------------- |
 | 	         15 |	        39,170 |	$24,649,428.00 |                78.9 |	                81.9 |           74.8 |           	85.7 	|               64.9|
 
 <!-- ![FINAL District Summary](summary_assets/DistrictSummary.png) -->
+
+### School Summary -
+In our School Summary, which listed each school individually, there was a significant drop in the passing percnetages for our one anomalous high school (Thomas HS) only when we did not account for the fewer number of students. Once we were able to insert custom totals for those percentages correctly, again we noticed only a slight difference (decline) in the total passing rates from our original:
+
+ORIGNAL:
+
+| School Name  | Type    | Total Stus |	Budget        | Per Stu Budget | Avg Math Score | Avg Read Score | % Passing Math | % Passing Reading |	% Overall Passing |
+| ------------ | ------- | ---------- | ------------- |	-------------- | -------------- | -------------- | -------------- |	----------------- | ----------------- |
+|	Thomas HS    | Charter |	     1635 |	$1,043,130.00 |	       $638.00 |      83.418349 |   	 83.848930 |      93.272171 |	        97.308869 |       	90.948012 |
+
+FINAL (THS 9th M&R ignored):
+
+| School Name  | Type    | Total Stus |	Budget        | Per Stu Budget | Avg Math Score | Avg Read Score | % Passing Math | % Passing Reading |	% Overall Passing |
+| ------------ | ------- | ---------- | ------------- |	-------------- | -------------- | -------------- | -------------- |	----------------- | ----------------- |
+|	Thomas HS    | Charter |	     1635 |	$1,043,130.00 |	       $638.00 |      83.350937 |    	 83.896082 |      93.185690 |	        97.018739 |       	90.630324 |
+
+
 
 
 ![FINAL School Summary](summary_assets/SchoolSummary.png)

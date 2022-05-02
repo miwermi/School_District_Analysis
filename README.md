@@ -22,6 +22,16 @@ For our initial analysis, Maria chose the reports below to return to the board (
 We were happy with the results when we were made aware that one school's data was incorrect for 9th grade math and reading test results. Once realizing this, all of our reports were re-run with the following results...
 
 ## Results: 
+In our original District Summary, the average Math and Reading scores and percentages were slightly higher than our final report where we left out all 9th grade test results for the school in question (Thomas HS):
+
+ORIGINAL: 
+Total Schools 	Total Students 	Total Budget 	Average Math Score 	Average Reading Score 	% Passing Math 	% Passing Reading 	% Overall Passing
+0 	15 	39,170 	$24,649,428.00 	79.0 	81.9 	75 	86 	65
+
+FINAL:
+Total Schools 	Total Students 	Total Budget 	Average Math Score 	Average Reading Score 	% Passing Math 	% Passing Reading 	% Overall Passing
+0 	15 	39,170 	$24,649,428.00 	78.9 	81.9 	74.8 	85.7 	64.9
+
 ![FINAL District Summary](summary_assets/DistrictSummary.png)
 - How is the district summary affected?
 

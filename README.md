@@ -14,7 +14,7 @@ For our initial analysis, Maria chose the reports below to return to the board (
 - A district summary (with school type, total students, total budget, average passing scores and rates)
 - A school summary (the above info for each individual school in the district)
 - The top 5 schools & the bottom 5 schools (with the highest percentage of students passing both reading and math)
-- verage math and reading scores for each school (based on test result means and percentages)
+- Average math and reading scores for each school (based on test result means and percentages)
 - School spending per student
 - Scores by school size (in student counts)
 - Scores by school type
@@ -22,8 +22,13 @@ For our initial analysis, Maria chose the reports below to return to the board (
 We were happy with the results when we were made aware that one school's data was incorrect for 9th grade math and reading test results. Once realizing this, all of our reports were re-run with the following results...
 
 ## Results: 
+![FINAL District Summary](summary_assets/DistrictSummary.png)
 - How is the district summary affected?
+
+![FINAL School Summary](summary_assets/SchoolSummary.png)
 - How is the school summary affected?
+
+<img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/MathScoresByGrade.png" width="300" height="350" alt ="graphic: Math Scores by Grade"> &nbsp; <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/ReadingScoresByGrade.png" width="300" height="350" alt ="graphic: Reading Scores by Grade">
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade

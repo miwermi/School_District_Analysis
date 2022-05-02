@@ -11,13 +11,13 @@ Pictured: Maria's School District
 For this project, I am helping Maria, the chief data scientist for a city school district, analyze standardized test data. The analysis we prepare will provide insights for the School Board, showcasing trends that will help to identify patterns and inform discussions on strategic district decisions on school budgets and priorities. 
 
 For our initial analysis, Maria chose the reports below to return to the board (making sure to follow FERPA guidelines and not publicize private student data):
--A district summary (with school type, total students, total budget, average passing scores and rates)
--A school summary (the above info for each individual school in the district)
--The top 5 schools & the bottom 5 schools (with the highest percentage of students passing both reading and math)
--Average math and reading scores for each school (based on test result means and percentages)
--School spending per student
--Scores by school size (in student counts)
--Scores by school type
+- A district summary (with school type, total students, total budget, average passing scores and rates)
+- A school summary (the above info for each individual school in the district)
+- The top 5 schools & the bottom 5 schools (with the highest percentage of students passing both reading and math)
+- verage math and reading scores for each school (based on test result means and percentages)
+- School spending per student
+- Scores by school size (in student counts)
+- Scores by school type
 
 We were happy with the results when we were made aware that one school's data was incorrect for 9th grade math and reading test results. Once realizing this, all of our reports were re-run with the following results...
 

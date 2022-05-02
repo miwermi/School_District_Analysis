@@ -24,7 +24,7 @@ We were happy with the results when we were made aware that one school's data wa
 ## Results: 
 
 ### District Summary - 
-In our original District Summary, the average Math and Reading scores and percentages were actually only slightly higher in our final report than they were in our final where we left out all 9th grade test results for the school in question (Thomas HS):
+In our original District Summary, the average Math and Reading scores and percentages were actually only slightly higher than they were in our final report where we left out all 9th grade test results for the school in question (Thomas HS):
 
 ORIGINAL:
 

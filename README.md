@@ -70,4 +70,4 @@ By replacing the 9th grade Thomas HS data, we also saw no difference at all in t
 
 ## Summary: 
 
-In summary, after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs, there were only slight variations in our final reports from our originals.  While Math and Reading passing rates did change slightly, Thomas HS's ranking as the #2 school in the district remains true.
+In summary, after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs, there were only slight variations in our final reports from our originals.  While Math and Reading passing rates did change slightly, Thomas High School's ranking as the #2 school in the district remains true.

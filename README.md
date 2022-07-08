@@ -1,16 +1,16 @@
-                                                                                           Michelle Werner (5/1/2022)
+<!--                                                                                           Michelle Werner (5/1/2022)-->
 # School District Analysis
 ---
 
-<!--![Maria's District](summary_assets/Maria_PyCitySchools.png)-->
+<!--![Maria's District](summary_assets/Maria_PyCitySchools.png)-- >
 <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/Maria_PyCitySchools.png" width="600" height="348" alt ="graphic: Maria's School District">
-Pictured: Maria's School District
+Pictured: Maria's School District-->
 
 ## Project Overview:
 
-For this project, I am helping Maria, the chief data scientist for a city school district, analyze standardized test data. The analysis we prepare will provide insights for the School Board, showcasing trends that will help to identify patterns and inform discussions on strategic district decisions on school budgets and priorities. 
+The chief data scientist for a city school district has requested assistance analyzing standardized test data. This analysis will provide insights for the School Board, showcasing trends that will help to identify patterns and inform discussions on strategic district decisions on school budgets and priorities. 
 
-For our initial analysis, Maria chose the reports below to return to the board (making sure to follow FERPA guidelines and not publicize private student data):
+For initial analysis, the reports below were created and returned to the board (with adherence to FERPA guidelines, keeping private student data unpublicized):
 - A district summary (with school type, total students, total budget, average passing scores and rates)
 - A school summary (the above info for each individual school in the district)
 - The top 5 schools & the bottom 5 schools (with the highest percentage of students passing both reading and math)
@@ -19,12 +19,12 @@ For our initial analysis, Maria chose the reports below to return to the board (
 - Scores by school size (in student counts)
 - Scores by school type
 
-We were happy with the results when we were made aware that one school's data was incorrect for 9th grade math and reading test results. Once realizing this, all of our reports were re-run with the following results...
+Once results were in, it was announced that one school's data was incorrect and that their 9th grade math and reading test results would need to be left off, and all report results re-calculated. Below are the results before and after that exclusion, and a comparison of the exclusion's effect.
 
 ## Results: 
 
 ### District Summary - 
-In our original District Summary, the average Math and Reading scores and percentages were actually only slightly higher than they were in our final report where we left out all 9th grade test results for the school in question (Thomas HS):
+In the original District Summary, the average Math and Reading scores and percentages were actually only slightly higher than they were in the final report where all 9th grade test results for the school in question (Thomas HS) were left out:
 
 ORIGINAL:
 
@@ -41,7 +41,7 @@ FINAL (THS 9th M&R ignored):
 <!-- ![FINAL District Summary](summary_assets/DistrictSummary.png) -->
 
 ### School Summary -
-In our School Summary, which listed each school individually, there was a significant drop in the passing percentages for our one anomalous high school (Thomas HS) only when we did not account for the fewer number of students. Once we were able to insert custom totals for those percentages correctly, again we noticed only a slight difference in the total passing rates from our original. Only the passing-reading-percentage increased, all others declined:
+In the School Summary, which listed each school individually, there was a significant drop in the passing percentages for the one anomalous high school (Thomas HS) only when the fewer number of total students was not accounted for. Once custom totals were inserted with accurate total counts for the number of actual scores used, the percentages adjusted and again there was only a slight difference in the total passing rates from the original. The passing-reading-percentage increased slightly, all others declined:
 
 ORIGNAL:
 
@@ -60,14 +60,14 @@ FINAL (THS 9th M&R ignored):
 Pictured below are Math and Reading scores for all schools by grade (numbers left off are signified by "nan"):
 <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/MathScoresByGrade.png" width="300" height="350" alt ="graphic: Math Scores by Grade"> &nbsp; <img src="https://github.com/miwermi/school-district-analysis/blob/main/summary_assets/ReadingScoresByGrade.png" width="300" height="350" alt ="graphic: Reading Scores by Grade">
 
-And in our FULL District Report (listed alphabetically) we can easily see how all schools compare to each other:
+And in the FULL District Report (listed alphabetically) comparisons between all schools are easily viewable:
 ![FINAL School Summary](summary_assets/SchoolSummary.png)
 
 ### Top & Bottom 5
-By replacing the 9th grade Thomas HS data, we also saw no difference at all in the ranking placement of any Top 5 or Bottom performing school. Below are the final versions of those two reports:
+By replacing the 9th grade Thomas HS data, no difference in the ranking placement of any Top 5 or Bottom 5 performing school was apparent. Below are the final versions of those two reports:
 ![FINAL Top 5](summary_assets/TopSchools.png)
 ![FINAL Bottom 5](summary_assets/BottomSchools.png)
 
 ## Summary: 
 
-In summary, after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs, there were only slight variations in our final reports from our originals.  While Math and Reading passing rates did change slightly, Thomas High School's ranking as the #2 school in the district remains true.
+In summary, after reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, there were only slight variations in the new final reports from the originals. While Math and Reading passing rates did change slightly, Thomas High School's ranking as the #2 school in the district remains true. The only pattern observed from the data seems to be that district schools struggle significantly with math passing rates. This could be due to larger numbers of students or perhaps attracting fewer talented math teachers or something else unknown from this dataset. It seems to occur regardless of budget. A survey of the high-scoring schools math programs might lead to insights of what's working.
